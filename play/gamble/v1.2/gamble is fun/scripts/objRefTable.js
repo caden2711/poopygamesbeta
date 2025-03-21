@@ -123,7 +123,7 @@ self.C3_JsPropNameTable = [
 	{restart: 0},
 	{Browser: 0},
 	{moneyperball: 0},
-	{money: 0},
+	{money: 100},
 	{moneyThatRound: 0},
 	{InterestAmount: 0},
 	{BallsFalling: 0},
