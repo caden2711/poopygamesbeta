@@ -1426,7 +1426,7 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(160, 200);
 		},
-		() => 50,
+		() => 5000,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0() * 0.15);
@@ -1440,12 +1440,12 @@ self.C3_ExpressionFuncs = [
 		() => 1000000,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and("Money Remaining: ", v0.GetValue());
+			return () => and("Mooijiijoijoij: ", v0.GetValue());
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
-			return () => (and("Money Remaining: ", f0((v1.GetValue() / 100000), 2)) + "M");
+			return () => (and("Cash and asdpofij: ", f0((v1.GetValue() / 100000), 2)) + "M");
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1565,7 +1565,7 @@ self.C3_ExpressionFuncs = [
 		() => 500,
 		() => "Purchaced",
 		() => "AddBalls",
-		() => 5,
+		() => 50000,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
