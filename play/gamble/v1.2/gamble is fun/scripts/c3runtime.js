@@ -1556,7 +1556,7 @@ self.C3_ExpressionFuncs = [
 		() => 3,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (and("YOU ARE DYING! TIME LEFT: ", v0.GetValue()) + " SECONDS!");
+			return () => (and("The game: ", v0.GetValue()) + " SECONDS!");
 		},
 		() => 300,
 		p => {
